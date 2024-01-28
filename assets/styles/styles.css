@@ -461,6 +461,21 @@ footer {
   padding: 1.875rem;
 }
 
+.back-to-top {
+  position: fixed;
+  bottom: 1.25rem;
+  right: 1.25rem;
+  background: var(--light-gray-color);
+  width: 3.125rem;
+  height: 3.125rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: var(--dark-bg);
+  transform: rotate(-90deg);
+}
+
 @media (max-width: 50rem) {
   h2 {
     font-size: 2.25rem !important;
