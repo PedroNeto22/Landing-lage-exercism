@@ -443,12 +443,12 @@ textarea:focus {
   background: transparent;
   font-size: 1.875rem;
   padding: 0.9375rem 1.25rem;
-  border: 0.3125rem solid var(--menu-border-color);
+  border: 0.3125rem solid var(--dark-bg);
   transition: all 300ms ease-in-out;
 }
 
 .contact-form button:hover {
-  background-color: #35393bc6;
+  background-color: var(--dark-bg);
 }
 
 footer {
